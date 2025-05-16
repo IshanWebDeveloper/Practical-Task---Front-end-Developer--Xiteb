@@ -147,6 +147,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* clients logos */}
+      <section className="w-full flex items-center justify-center px-[50px] py-3 gap-2 my-6">
+        <Image
+          src="/clients_logo.png"
+          alt="clients logos"
+          width={945}
+          height={526}
+          className="w-full h-full object-contain"
+          priority
+        />
+      </section>
     </main>
   );
 }

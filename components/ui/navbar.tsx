@@ -10,12 +10,12 @@ const NavBar = () => {
         <span className="text-yellow-500 text-2xl">✦</span>
         <span className="text-xs font-semibold mt-2">TON</span>
       </div>
-      <nav className="hidden md:flex items-center gap-6">
-        <div className="flex items-center gap-1 text-sm font-medium text-yellow-500 cursor-pointer">
+      <nav className="hidden md:flex items-center gap-6 group-first:text-yellow-500 ">
+        <div className="flex items-center gap-1 text-sm font-medium text-yellow-500 cursor-pointer ">
           <span>HOME</span>
           <ChevronDown className="h-4 w-4" />
         </div>
-        <div className="flex items-center gap-1 text-sm font-medium  cursor-pointer">
+        <div className="flex items-center gap-1 text-sm font-medium   cursor-pointer">
           <span>PAGES</span>
           <ChevronDown className="h-4 w-4" />
         </div>
